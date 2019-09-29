@@ -3,8 +3,6 @@
 In this part of the repo, we discuss the human activity recognition problem using deep learning algorithms
 and compare the results with standard machine learning algorithms that use engineered features.
 
-The data can be downloaded from the [UCI repository](https://archive.ics.uci.edu/ml/datasets/human+activity+recognition+using+smartphones). 
-
 Also see G.Chevalier's [repo](https://github.com/guillaume-chevalier/LSTM-Human-Activity-Recognition) and A. Saeed's [blog](https://aqibsaeed.github.io/2016-11-04-human-activity-recognition-cnn/) where I have got lots of inspiration.
 
 ## Contents
@@ -22,12 +20,14 @@ where `batch` is the number of training examples in each batch, `seq_len` is the
 The aim is to clasify the activities correctly, which are
 
 ```
-1 WALKING
-2 WALKING_UPSTAIRS
-3 WALKING_DOWNSTAIRS
-4 SITTING
-5 STANDING
-6 LAYING
+1 RESTING
+2 STANDING
+3 WALKING
+4 FALLING
+5 WALKING_UPSTAIRS
+6 WALKING_DOWNSTAIRS
+7 STANDING_UP
+8 SITTING
 ```
 
 Below are the architectures used for training
