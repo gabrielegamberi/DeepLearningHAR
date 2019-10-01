@@ -90,7 +90,7 @@ class HARKeras:
         print(self.model.summary())
 
     def train_network(self):
-        self.model.compile(optimizer='adam',            # Optimizer (better version of SGD)
+        self.model.compile(optimizer=tf.keras.optimizers.Adam(learning_rate=self.learning_rate),            # Optimizer (better version of SGD)
                       loss='categorical_crossentropy',  # Type of loss function to calculate the error
                       metrics=['accuracy'])             # Metrics we want to track
 
