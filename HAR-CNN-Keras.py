@@ -37,7 +37,7 @@ class HARKeras:
         # Hyperparameters
         self.batch_size = 450       # Batch size previously set to 600
         self.seq_len = 128          # Number of steps
-        self.learning_rate = 0.0001
+        self.learning_rate = 0.001
         self.epochs = 100           # Previously set to 250
         self.n_classes = 8          # Number of classes
         self.n_channels = 9         # Number of files
