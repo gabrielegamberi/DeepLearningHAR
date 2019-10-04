@@ -12,7 +12,7 @@ have the dimensions
 where `batch` is the number of training examples in each batch, `seq_len` is the number of steps in the time series (128) and
 `n_channels` is the number of channels where observations are made (9). 
 
-The aim is to clasify the activities correctly, which are
+The aim is to classify the activities correctly, which are
 
 ```
 1 RESTING
