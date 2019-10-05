@@ -1,2 +1,0 @@
-model_checkpoint_path: "har-lstm.ckpt"
-all_model_checkpoint_paths: "har-lstm.ckpt"
