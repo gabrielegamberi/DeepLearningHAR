@@ -12,6 +12,8 @@ have the dimensions
 where `batch` is the number of training examples in each batch, `seq_len` is the number of steps in the time series (128) and
 `n_channels` is the number of channels where observations are made (9). 
 
+The `UCIHAR` folder contains 1150 observations: 1000 are used to train the model, and the remainings for testing purposes. 
+
 The aim is to classify the activities correctly, which are
 
 ```
